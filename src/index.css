@@ -7,6 +7,7 @@
 
   color: white;
   background-color: #ffd3bc;
+  background-image: linear-gradient(0deg, white, #ffd3bc);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

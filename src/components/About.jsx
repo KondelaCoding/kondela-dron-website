@@ -14,8 +14,8 @@ export default function About() {
           jakości materiały z powietrza oraz przeprowadzając inspekcje trudno dostępnych miejsc, zapewniając szybkie i
           bezpieczne rozwiązania.
         </p>
-        <div>
-          <img src={Picture4} alt="moje-zdjęcie" className="rounded-3xl" />
+        <div className="overflow-hidden aspect-[3/4] tablet:aspect-auto">
+          <img src={Picture4} alt="moje-zdjęcie" className="rounded-3xl h-full object-cover m-auto laptop:max-w-7xl" />
         </div>
       </div>
       <div className="container flex flex-col gap-14 laptop:flex-row">
@@ -32,8 +32,8 @@ export default function About() {
           </p>
           <CtaButton />
         </div>
-        <div className="w-full">
-          <img src={Picture1} alt="moje-zdjęcie" className="rounded-3xl" />
+        <div className="overflow-hidden aspect-[3/4] tablet:aspect-auto">
+          <img src={Picture1} alt="moje-zdjęcie" className="rounded-3xl h-full object-cover" />
         </div>
       </div>
     </div>

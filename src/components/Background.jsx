@@ -6,7 +6,7 @@ import Background5 from "../images/background-5.png";
 
 export default function Background() {
   return (
-    <div className="aspect-video w-screen relative mt-20">
+    <div className="aspect-video w-screen relative mt-32">
       <img src={Background5} alt="background-5" className="absolute top-0" />
       <img src={Background4} alt="background-4" className="absolute top-0" />
       <img src={Background3} alt="background-3" className="absolute top-0" />

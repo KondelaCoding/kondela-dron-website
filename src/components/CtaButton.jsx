@@ -1,7 +1,7 @@
 import { Mail, Send } from "react-feather";
 import { useState } from "react";
 
-export default function CtaButton() {
+export default function CtaButton({ color }) {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -15,7 +15,9 @@ export default function CtaButton() {
     <div className="flex gap-3 flex-col items-center tablet:items-baseline">
       <p>Zmień swoją perspektywę</p>
       <button
-        className="flex justify-center items-center gap-3 bg-[#d13100] py-3 pl-12 pr-20 rounded-full text-2xl w-fit duration-300 hover:bg-[#ffd3bc] hover:text-black active:opacity-70 active:scale-95 active:duration-100"
+        className={`flex justify-center items-center gap-3 py-3 pl-12 pr-20 rounded-full text-2xl w-fit duration-300 hover:bg-white active:opacity-70 active:scale-95 active:duration-100 ${
+          color === "red" ? "bg-[#ff0000] text-white hover:text-black" : "bg-[#ffc525] text-black"
+        }`}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >

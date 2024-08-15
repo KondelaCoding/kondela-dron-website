@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Background from "./components/Background";
 import About from "./components/About";
+import Projects from "./components/Projects";
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       <Background />
       <About />
       <div className="separator"></div>
+      <Projects />
     </>
   );
 }

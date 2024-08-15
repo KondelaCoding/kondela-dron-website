@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     screens: {
-      tablet: "1024px",
+      tablet: "800px",
       laptop: "1800px",
       desktop: "2500px",
     },

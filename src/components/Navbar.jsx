@@ -6,16 +6,16 @@ export default function Navbar() {
       <img src={Logo} alt="kondela-dron" className="w-64 h-fit drop-shadow-[0_0_10px_rgba(0,0,0,0.7)] laptop:w-96" />
       <div className="w-fit hidden tablet:inline">
         <ul className="flex justify-end items-center h-full gap-5 text-[#352214]">
-          <li className="px-6 py-2 text-md font-bold rounded-full bg-[#FFD3BC] duration-300  cursor-pointer laptop:text-xl desktop:text-2xl desktop:px-10 hover:scale-125">
+          <li className="px-6 py-2 text-md font-bold rounded-full bg-white shadow-lg duration-300 cursor-pointer laptop:text-xl desktop:text-2xl desktop:px-10 hover:scale-125">
             O nas
           </li>
-          <li className="px-6 py-2 text-md font-bold rounded-full bg-[#FFD3BC] duration-300  cursor-pointer laptop:text-xl desktop:text-2xl desktop:px-10 hover:scale-125">
+          <li className="px-6 py-2 text-md font-bold rounded-full bg-white shadow-lg duration-300 cursor-pointer laptop:text-xl desktop:text-2xl desktop:px-10 hover:scale-125">
             Projekty
           </li>
-          <li className="px-6 py-2 text-md font-bold rounded-full bg-[#FFD3BC] duration-300  cursor-pointer laptop:text-xl desktop:text-2xl desktop:px-10 hover:scale-125">
+          <li className="px-6 py-2 text-md font-bold rounded-full bg-white shadow-lg duration-300 cursor-pointer laptop:text-xl desktop:text-2xl desktop:px-10 hover:scale-125">
             Oferta
           </li>
-          <li className="px-6 py-2 text-md font-bold rounded-full bg-[#FFD3BC] duration-300  cursor-pointer laptop:text-xl desktop:text-2xl desktop:px-10 hover:scale-125">
+          <li className="px-6 py-2 text-md font-bold rounded-full bg-white shadow-lg duration-300 cursor-pointer laptop:text-xl desktop:text-2xl desktop:px-10 hover:scale-125">
             Kontakt
           </li>
         </ul>
